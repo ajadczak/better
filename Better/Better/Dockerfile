@@ -1,5 +1,5 @@
-﻿#FROM node:latest
-FROM ubuntu:14.04
+﻿FROM ubuntu:14.04
+# FROM node:latest
 
 # Copy project files and change working directory
 COPY . /src
@@ -13,4 +13,4 @@ EXPOSE $PORT
 # RUN npm install
 RUN apt-get -y update && apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_4.x && apt-get install -y nodejs
 CMD node -v
-#CMD node server.js
+# CMD node server.js
