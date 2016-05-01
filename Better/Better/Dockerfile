@@ -1,4 +1,4 @@
-﻿FROM ubuntu:14.04
+FROM ubuntu:14.04
 # FROM node:latest
 
 # Copy project files and change working directory
